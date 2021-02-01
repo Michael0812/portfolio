@@ -54,11 +54,6 @@ nav ul li a:before {
     transition: all .5s;
 }
 
-.navbar-scroll {
-    background-color: #000;
-    transition: background-color 0.5s;
-}
-
 
 /*Nav-hover*/
 
@@ -103,6 +98,12 @@ nav ul li a:before {
 
 
 /*Media Queries*/
+
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #000;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     .intro,
