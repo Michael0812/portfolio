@@ -48,11 +48,12 @@ h2,
 }
 
 .nav-link {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .nav-item {
     margin-right: 40px;
+    margin-top: 1.5rem;
     margin-left: 20px;
 }
 
