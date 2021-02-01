@@ -54,6 +54,29 @@ nav ul li a:before {
     transition: all .5s;
 }
 
+.navbar-scroll {
+    background-color: #000;
+    transition: background-color 0.5s;
+}
+
+
+/*Nav-hover*/
+
+.nav-link {
+    transition: 0.3s ease;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
+
 
 /*Hero Image*/
 
@@ -98,9 +121,6 @@ nav ul li a:before {
     .intro,
     .intro1 {
         font-size: 3rem;
-    }
-    .intro {
-        top: 40%;
     }
     .intro1 {
         top: 58%;
