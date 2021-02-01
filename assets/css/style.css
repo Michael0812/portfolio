@@ -82,10 +82,10 @@ nav ul li a:before {
 
 .intro {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 40%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+    font-size: 3rem
 }
 
 
@@ -100,5 +100,10 @@ nav ul li a:before {
 @media only screen and (min-width: 768px) {
     .intro {
         font-size: 2.7rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem
     }
 }
