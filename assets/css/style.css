@@ -8,6 +8,7 @@ body {
     padding: 0px;
     overflow-x: hidden !important;
     background-color: #191919;
+    color: #ffffff;
 }
 
 * {
@@ -109,6 +110,15 @@ nav ul li a:before {
 
 .about-content {
     width: 80%;
+}
+
+
+/*Skills*/
+
+.fab,
+.fas {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 
