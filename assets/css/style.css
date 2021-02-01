@@ -14,3 +14,43 @@ body {
 * {
     box-sizing: border-box;
 }
+
+
+/*Navbar*/
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0 !important;
+    z-index: 10;
+    border-radius: 0;
+    background: none;
+    border-color: transparent;
+}
+
+.navbar-toggler {
+    border: 0;
+    border-radius: 0;
+}
+
+.topnav a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-link {
+    letter-spacing: 2px;
+}
+
+.nav-item {
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
