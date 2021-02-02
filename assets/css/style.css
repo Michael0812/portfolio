@@ -214,7 +214,7 @@ nav ul li a:before {
     transform: translateY(-50%) translateZ(60px) scale(.94);
     -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
     -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
-    top: 50%;
+    top: 42%;
 }
 
 .flip-box-button {
@@ -236,6 +236,10 @@ nav ul li a:before {
 
 .flip-box-button:hover {
     color: gray;
+}
+
+.test {
+    grid-gap: 5px;
 }
 
 
