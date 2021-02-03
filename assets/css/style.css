@@ -65,6 +65,18 @@ nav ul li a:before {
 }
 
 
+/*Video*/
+
+.intro1 {
+    text-align: center;
+    height: 100vh;
+    margin-top: 45vh;
+    font-size: 3rem;
+    font-size: 3rem;
+    margin-bottom: -10rem;
+}
+
+
 /*Nav-hover*/
 
 .nav-link {
@@ -285,6 +297,14 @@ nav ul li a:before {
         text-align: left;
         margin-bottom: 2rem;
         width: 70%;
+    }
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
 }
 
