@@ -49,7 +49,28 @@
         </div>
     </nav>
 
-    <div class="container-responsive section-hero">
+
+
+    <!--Banner video it is visible on medium devices and higher only-->
+    <header>
+        <div class="wrapper d-none d-md-block d-lg-block d-xl-block">
+
+            <div class="overlay d-none d-md-block d-lg-block d-xl-block"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="assets/img/banner-video.mp4" type="video/mp4">
+            </video>
+
+
+        </div>
+    </header>
+
+
+    <div class="col text-white d-none d-md-block d-lg-block d-xl-block">
+        <p class="intro1">Hello, I'm <span class="name font-weight-bold">Michal</span><br>I'm a Full Stack Web Devloper</p>
+    </div>
+
+    <!--Hero image-->
+    <div class="container-responsive section-hero d-block d-sm-block d-md-none">
         <div class="row">
             <div class="col text-white">
                 <img src="assets/img/hero-image.jpg" alt="hero image" class="hero-image">
@@ -316,4 +337,4 @@
 
 </body>
 
-</html>
+</html>v
