@@ -18,7 +18,8 @@ body {
 h1,
 h2,
 .heading,
-.about-content {
+.about-content,
+.fab {
     color: #ffffff;
 }
 
@@ -116,8 +117,7 @@ nav ul li a:before {
 
 /*Skills*/
 
-.fab,
-.fas {
+.fab1 {
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
@@ -238,8 +238,24 @@ nav ul li a:before {
     color: gray;
 }
 
-.test {
-    grid-gap: 5px;
+
+/*Footer*/
+
+.footer {
+    background-color: #838383;
+}
+
+.social:hover {
+    color: #A9A9A9;
+}
+
+.fab {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.font-weight-bold {
+    margin-top: 2rem;
 }
 
 
