@@ -89,9 +89,8 @@ nav ul li a:before {
 .intro1 {
     text-align: center;
     height: 100vh;
-    margin-top: 45vh;
-    font-size: 3rem;
-    font-size: 3rem;
+    margin-top: 35vh;
+    font-size: 4rem;
     margin-bottom: -10rem;
 }
 
@@ -328,7 +327,7 @@ nav ul li a:before {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .personal-image,
     .about-content {
         margin: 0 auto;
@@ -337,5 +336,11 @@ nav ul li a:before {
         text-align: center;
         margin: 0 auto;
         width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .intro1 {
+        font-size: 5.5rem;
     }
 }
