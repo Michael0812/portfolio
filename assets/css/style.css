@@ -15,6 +15,11 @@ body {
     box-sizing: border-box;
 }
 
+.name,
+.coma {
+    color: #33fdd8;
+}
+
 .nav-link,
 .intro,
 .intro1,
@@ -28,7 +33,6 @@ body {
 
 h1,
 h2,
-.heading,
 .about-content,
 .fab,
 .resume {
@@ -87,7 +91,7 @@ nav ul li a:before {
 /*Video*/
 
 .intro1 {
-    text-align: center;
+    margin-left: 15%;
     height: 100vh;
     margin-top: 35vh;
     font-size: 4rem;
@@ -107,8 +111,8 @@ nav ul li a:before {
 }
 
 .nav-link:hover {
-    border-top: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
+    border-top: 4px solid #33fdd8;
+    border-bottom: 4px solid #33fdd8;
     padding: 6px 0;
 }
 
@@ -277,7 +281,7 @@ nav ul li a:before {
 
 .social:hover,
 .resume:hover {
-    color: #A9A9A9;
+    color: #33fdd8;
 }
 
 .social {
