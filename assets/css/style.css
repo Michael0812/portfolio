@@ -88,19 +88,20 @@ nav ul li a:before {
     transition: all .5s;
 }
 
-.line1,
-.line2 {
+.menu {
+    color: #fff;
+    mix-blend-mode: difference;
+    background-color: #33fdd8;
+    animation: loading 10sTime;
+}
+
+.line {
+    width: 30px;
     height: 5px;
     background-color: #33fdd8;
     margin: 6px 0;
-}
-
-.line1 {
-    width: 25px;
-}
-
-.line2 {
-    width: 15px;
+    color: white;
+    mix-blend-mode: difference;
 }
 
 
