@@ -89,8 +89,7 @@ nav ul li a:before {
 }
 
 .menu {
-    color: #fff;
-    mix-blend-mode: difference;
+    color: #33fdd8;
     background-color: #33fdd8;
     animation: loading 10sTime;
 }
@@ -100,7 +99,6 @@ nav ul li a:before {
     height: 5px;
     background-color: #33fdd8;
     margin: 6px 0;
-    color: white;
     mix-blend-mode: difference;
 }
 
