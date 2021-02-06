@@ -88,6 +88,21 @@ nav ul li a:before {
     transition: all .5s;
 }
 
+.line1,
+.line2 {
+    height: 5px;
+    background-color: #33fdd8;
+    margin: 6px 0;
+}
+
+.line1 {
+    width: 25px;
+}
+
+.line2 {
+    width: 15px;
+}
+
 
 /*Video*/
 
