@@ -294,10 +294,6 @@ nav ul li a:before {
 
 /*Footer*/
 
-.footer {
-    background-color: #838383;
-}
-
 .social:hover,
 .resume:hover {
     color: #33fdd8;
