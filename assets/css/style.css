@@ -36,7 +36,8 @@ body {
 .heading,
 .heading-skills,
 .heading-project,
-.contact {
+.contact,
+.resume-content {
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -51,7 +52,8 @@ h2,
 .about-content,
 .skills-content,
 h5,
-.contact {
+.contact,
+.resume-content {
     font-size: 18px;
     line-height: 30px;
 }
@@ -210,6 +212,7 @@ nav ul li a:before {
     background-size: cover;
     background-position: center;
     border-radius: 8px;
+    max-height: 100%;
     width: 100%;
     -ms-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
     transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
@@ -308,7 +311,8 @@ nav ul li a:before {
     color: #33fdd8;
 }
 
-.social {
+.social,
+.resume {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
