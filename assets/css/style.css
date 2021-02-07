@@ -16,14 +16,6 @@ body {
     box-sizing: border-box;
 }
 
-#cursor {
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-    background-color: #33fdd8;
-    position: absolute;
-}
-
 .name,
 .coma {
     color: #33fdd8;
@@ -363,6 +355,13 @@ nav ul li a:before {
     }
     .contact {
         width: 27%;
+    }
+    #cursor {
+        height: 20px;
+        width: 20px;
+        border-radius: 20px;
+        background-color: #33fdd8;
+        position: absolute;
     }
 }
 
