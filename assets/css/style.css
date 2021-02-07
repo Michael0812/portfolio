@@ -9,10 +9,19 @@ body {
     overflow-x: hidden !important;
     background-color: #000;
     color: #ffffff;
+    cursor: none;
 }
 
 * {
     box-sizing: border-box;
+}
+
+#cursor {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #33fdd8;
+    position: absolute;
 }
 
 .name,
