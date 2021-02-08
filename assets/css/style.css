@@ -17,17 +17,17 @@
                 background: none;
                 margin-left: 12%;
                 text-align: left;
-                width: 70%;
+                width: 80%;
             }
             
             .progress>.progress-type {
                 position: absolute;
-                left: 13%;
+                left: 12%;
                 font-weight: 800;
                 color: rgb(255, 255, 255);
                 background-color: #000;
                 height: 25px;
-                width: 80px;
+                width: 100px;
                 margin-bottom: 2rem;
                 border-radius: 10px;
                 border: 2px solid #33fdd8;
