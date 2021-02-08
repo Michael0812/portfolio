@@ -17,7 +17,8 @@ body {
 }
 
 .name,
-.coma {
+.coma,
+.cta1 {
     color: #33fdd8;
 }
 
@@ -29,7 +30,9 @@ body {
 .heading-skills,
 .heading-project,
 .contact,
-.resume-content {
+.resume-content,
+.cta,
+.cta1 {
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -37,7 +40,8 @@ h1,
 h2,
 .about-content,
 .fab,
-.resume {
+.resume,
+.cta {
     color: #ffffff;
 }
 
@@ -311,7 +315,13 @@ nav ul li a:before {
 }
 
 .contact {
-    width: 50%;
+    width: 80%;
+}
+
+.cta,
+.cta1 {
+    font-size: 2rem;
+    text-align: center;
 }
 
 
@@ -351,7 +361,7 @@ nav ul li a:before {
         left: 0;
     }
     .contact {
-        width: 27%;
+        width: 40%;
     }
     #cursor {
         height: 20px;
@@ -359,6 +369,10 @@ nav ul li a:before {
         border-radius: 20px;
         background-color: #33fdd8;
         position: absolute;
+    }
+    .cta,
+    .cta1 {
+        font-size: 3rem;
     }
 }
 
@@ -376,7 +390,7 @@ nav ul li a:before {
 
 @media only screen and (min-width: 1024px) {
     .contact {
-        width: 15%;
+        width: 25%;
     }
 }
 
@@ -385,7 +399,7 @@ nav ul li a:before {
         font-size: 5.5rem;
     }
     .contact {
-        width: 13vw;
+        width: 30%;
     }
 }
 
