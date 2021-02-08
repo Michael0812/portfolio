@@ -19,7 +19,9 @@
     .name,
     .coma,
     .cta1,
-    .cta3 {
+    .cta3,
+    .social:hover,
+    .resume:hover {
         color: #33fdd8;
     }
     
@@ -42,7 +44,9 @@
     .about-content,
     .fab,
     .resume,
-    .cta {
+    .cta,
+    .flip-box-button,
+    .nav-link {
         color: #ffffff;
     }
     
@@ -123,7 +127,6 @@
     
     .nav-link {
         transition: 0.3s ease;
-        color: #ffffff;
         font-size: 20px;
         text-decoration: none;
         padding: 20px 0;
@@ -168,10 +171,6 @@
     .fab1 {
         margin-top: 5rem;
         margin-bottom: 2rem;
-    }
-    
-    .section-skills {
-        background: #000;
     }
     /*Projects*/
     
@@ -278,19 +277,10 @@
         text-transform: uppercase;
     }
     
-    .flip-box-button {
-        color: #fff;
-    }
-    
     .flip-box-button:hover {
         color: gray;
     }
     /*Footer*/
-    
-    .social:hover,
-    .resume:hover {
-        color: #33fdd8;
-    }
     
     .social,
     .resume {
