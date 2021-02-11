@@ -185,10 +185,18 @@
                                             color: #fff;
                                             position: relative;
                                             margin-top: -30%;
+                                            border-bottom: none;
+                                            text-decoration: inherit;
+                                        }
+                                        
+                                        .fa-angle-down {
+                                            text-decoration: inherit;
+                                            text-decoration-color: #000;
                                         }
                                         
                                         .bounce {
                                             animation: bounce 2s infinite;
+                                            text-decoration: inherit;
                                         }
                                         
                                         @keyframes bounce {
@@ -420,6 +428,24 @@
                                                 text-align: center;
                                                 margin: 0 auto;
                                                 width: 80%;
+                                            }
+                                            .progress {
+                                                height: 15px;
+                                                background: none;
+                                                margin-left: 10%;
+                                                text-align: left;
+                                                width: 60%;
+                                            }
+                                            .progress>.progress-type {
+                                                left: 10%;
+                                                font-weight: 400;
+                                                height: 15px;
+                                                width: 70px;
+                                                font-size: 10px;
+                                                margin-bottom: 1rem;
+                                                border-radius: 8px;
+                                                border: 2px solid #33fdd8;
+                                                padding: 5px 6px;
                                             }
                                         }
                                         
