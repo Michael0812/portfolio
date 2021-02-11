@@ -73,7 +73,8 @@
                                         .resume,
                                         .cta,
                                         .flip-box-button,
-                                        .nav-link {
+                                        .nav-link,
+                                        .view {
                                             color: #ffffff;
                                         }
                                         
@@ -289,7 +290,8 @@
                                         }
                                         
                                         .flip-box-back {
-                                            background-color: gray;
+                                            background-color: #000;
+                                            border: 5px solid #33fdd8;
                                             position: absolute;
                                             top: 0;
                                             left: 0;
@@ -328,20 +330,62 @@
                                         }
                                         
                                         .flip-box-button {
-                                            background-color: transparent;
-                                            border: 2px solid #000;
+                                            border: 2px solid #33fdd8;
                                             border-radius: 2px;
                                             color: #fff;
                                             cursor: pointer;
                                             font-size: 10px;
                                             font-weight: bold;
-                                            margin-top: 25px;
+                                            margin-top: 50px;
                                             padding: 15px 20px;
                                             text-transform: uppercase;
                                         }
+                                        /*Button - view*/
                                         
-                                        .flip-box-button:hover {
-                                            color: gray;
+                                        button,
+                                        button::after {
+                                            -webkit-transition: all 0.3s;
+                                            -moz-transition: all 0.3s;
+                                            -o-transition: all 0.3s;
+                                            transition: all 0.3s;
+                                        }
+                                        
+                                        button {
+                                            border: 2px solid #33fdd8;
+                                            color: #fff;
+                                            text-transform: uppercase;
+                                            border-radius: 2px;
+                                            display: block;
+                                            font-size: 0.8rem;
+                                            font-weight: bold;
+                                            margin: 0 auto;
+                                            padding: 8px 12px;
+                                            position: relative;
+                                            background: none;
+                                        }
+                                        
+                                        .view:hover {
+                                            text-decoration: none;
+                                            color: #fff;
+                                        }
+                                        
+                                        button::before,
+                                        button::after {
+                                            background: #33fdd8;
+                                            content: '';
+                                            position: absolute;
+                                            z-index: -1;
+                                        }
+                                        
+                                        .btn-1::after {
+                                            height: 0;
+                                            left: 0;
+                                            top: 0;
+                                            width: 100%;
+                                        }
+                                        
+                                        .btn-1:hover:after {
+                                            height: 100%;
                                         }
                                         /*Footer*/
                                         
