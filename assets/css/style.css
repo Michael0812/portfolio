@@ -242,6 +242,7 @@
                                             min-height: 35vh;
                                             max-height: 35vh;
                                             max-width: 100%;
+                                            border-radius: 10px;
                                         }
                                         
                                         .box-item {
@@ -261,7 +262,7 @@
                                         .flip-box-back {
                                             background-size: cover;
                                             background-position: center;
-                                            border-radius: 8px;
+                                            border-radius: 10px;
                                             max-height: 100%;
                                             width: 100%;
                                             -ms-transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
@@ -339,10 +340,10 @@
                                         }
                                         
                                         button {
-                                            border: 2px solid #33fdd8;
+                                            border: 3px solid #33fdd8;
                                             color: #fff;
                                             text-transform: uppercase;
-                                            border-radius: 2px;
+                                            border-radius: 8px;
                                             display: block;
                                             font-size: 0.8rem;
                                             font-weight: bold;
