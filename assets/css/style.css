@@ -83,6 +83,14 @@
                                             font-size: 17px;
                                         }
                                         
+                                        .logo {
+                                            height: 30px;
+                                            width: 27px;
+                                            margin-right: 20px;
+                                            margin-top: -8rem;
+                                            float: right;
+                                        }
+                                        
                                         .nav-link {
                                             letter-spacing: 3px;
                                         }
@@ -406,11 +414,19 @@
                                             font-size: 2rem;
                                             text-align: center;
                                         }
+                                        
+                                        .navbar-collapse {
+                                            float: right;
+                                            justify-content: right;
+                                        }
                                         /*Media Queries*/
                                         
                                         @media only screen and (max-width: 991px) {
                                             .navbar-collapse {
                                                 background-color: #000;
+                                            }
+                                            .logo {
+                                                margin-top: 0;
                                             }
                                         }
                                         
